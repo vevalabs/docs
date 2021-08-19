@@ -1,0 +1,9 @@
+{
+  "title": "VevaLabs Docs",
+  "url": "docs.vevalabs.com",
+  "logo": {
+    "light": "VevaLabs Docs",
+    "dark": "VevaLabs Docs"
+  },
+  "layout": "default"
+}
