@@ -9,7 +9,7 @@ menuTitle: 'Home'
 
 Welcome to VevaDocs, the home of VevaLabs technical documentation.
 
-<alert type="warning">
+<alert type="alert">
 
 Stay tuned, VevaLabs documentation is under construction!
 

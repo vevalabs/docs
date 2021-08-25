@@ -8,7 +8,7 @@ category: 'Getting started'
 ## Prerequsites
 
 * VevaLabs subscription. [Contact us](mailto:sales@vevalabs.com) if you want to subscribe.
-* At least one [gitlab.com](gitlab.com) account belonging to your organization or employees
+* At least one [gitlab.com](https://gitlab.com/vevalabs) account belonging to your organization or employees
 * A GNU/Linux operating system with `glibc>=2.17` and `python>=3.6`. 
 
 ## Install VevaLabs framework
