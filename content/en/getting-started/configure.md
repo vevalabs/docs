@@ -1,11 +1,11 @@
 ---
-title: Configuration
+title: VevaLabs Configuration
 description: ''
 position: 105
 category: 'Getting started'
 ---
 
-VevaLabs framework encourages you to configure your verification and validation workflow from a single configuration file, called `vevalabs.config.json`. This file helps you use the same set of options when running your tests across various platforms.
+VevaLabs framework encourages you to configure your workflow from a single configuration file, called `vevalabs.config.json`. This file helps you use the same set of options when running your tests across various platforms.
 
 ## What goes into `vevalabs.config.json`?
 
@@ -13,15 +13,7 @@ VevaLabs framework encourages you to configure your verification and validation 
 VevaLabs framework is currently under active development. The configuration items and options below can change without notice.
 </alert>
 
-### Runtime Options
 
-### Logging Options
-
-### Summary Options
-
-### Reporting Options
-
-### Licensing Options
 
 ## The default configuration
 

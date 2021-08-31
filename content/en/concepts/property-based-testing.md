@@ -1,7 +1,7 @@
 ---
-title: Property Based Testing
+title: Property based Testing
 description: ''
-position: 301
+position: 302
 category: 'Concepts'
 property-classes: 
   - Functional requirements about the driving system
@@ -35,7 +35,6 @@ is in contrast to example based testing, which uses singular test cases or examp
 
 Properties define a set of in an abstract way. 
 
-
 It is not too wrong to say that properties are rule to create examples at runtime.
 
 Property based testing has several advantages over example based testing. 
@@ -50,6 +49,6 @@ Using properties or rule-based approaches is definitely not a new idea in testin
 
 A comprensive list of property based testing frameworks for software verification can be found [here](https://github.com/jmid/pbt-frameworks). Notably tools [QuickCheck](https://github.com/nick8325/quickcheck) for Haskell, [Hypothesis](https://github.com/HypothesisWorks/hypothesis) for Python, and [RapidCheck](https://github.com/emil-e/rapidcheck/) for C++ programs come with a number of different features. 
 
-The support for real-time system verification, on the other hand, is unique to VevaLabs framework and we explain property based testing for real-time system in the next article.
+VevaLabs framework has been differentiated from these tools by its first-class support for real-time systems and properties designed and developed after years of research in the field.
 
 

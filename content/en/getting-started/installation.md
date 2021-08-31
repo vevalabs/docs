@@ -30,7 +30,7 @@ In this command:
 
 * `<name>` is the name of your access token you have created on GitLab.
 * `<token>` is your access token you have created on GitLab.
-* `<group_id>` is the group identifier of your organization on GitLab.
+* `<group_id>` is the group identifier we assign to your organization on GitLab.
 
 After installation you can import `vevalabs` package from Python or use the `ryctl` utility to perform tasks from the command line.
 
@@ -38,6 +38,6 @@ After installation you can import `vevalabs` package from Python or use the `ryc
 
 In order to use VevaLabs framework legally, you need a valid license certificate installed on your environment. If you have further questions on licensing terms, please [contact us](mailto:sales@vevalabs.com).
 
-A VevaLabs license cerificate is a [X.509](https://en.wikipedia.org/wiki/X.509) certificate issued for your development teams and signed by our root certificate. The validity period of VevaLabs license certificates matches the subscription period of your organization.
+VevaLabs licenses are [X.509](https://en.wikipedia.org/wiki/X.509) certificates issued for your development teams and signed by our root certificate. The validity period of VevaLabs license certificates matches the subscription period of your organization.
 
-VevaLabs framework expects the certificate placed in `\opt\vevalabs\license.pem` on your environment by default. This behavior can be configured in `vevalabs.config.json`.
+VevaLabs framework expects the certificate placed in `\opt\vevalabs\license.pem` on your environment by default. This location can be configured in `vevalabs.config.json`.

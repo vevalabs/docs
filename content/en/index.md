@@ -9,6 +9,8 @@ menuTitle: 'Home'
 
 Welcome to VevaDocs, the home of VevaLabs technical documentation.
 
+VevaLabs framework is a modern verification and validation (V&V) framework based on declarative properties for complex real-time systems including advanced driving assistance systems, autonomous vehicles, and similar robotic applications.
+
 <alert type="alert">
 
 Stay tuned, VevaLabs documentation is under construction!
@@ -18,11 +20,11 @@ Stay tuned, VevaLabs documentation is under construction!
 ## Get started
 
 
-- [How to install VevaLabs framework](getting-started/install)
-- [How to write abstract system properties](getting-started/install)
-- [How to check properties over your system behaviors](http://localhost:3000/getting-started/install)
+- [How to install VevaLabs framework](/getting-started/installation)
+- [How to write properties using Rytest](/getting-started/writing-properties)
+- [How to check properties using Rytest](/getting-started/checking-properties)
+- [How to configure VevaLabs framework](/getting-started/configuration)
+- [How to use VevaLabs framework from my terminal](/getting-started/configuration)
 
-
-## Step up gears
-
-## Cruise fast and safely
+[comment]: <> (## Step up gears)
+[comment]: <> (## Cruise fast and safely)
