@@ -19,7 +19,7 @@ Formally specified properties and property based testing lies at the very core o
 
 A functional property of a system specifies a certain relation or rule between the input and output of the system. For a given input, the system produces an output, we say that the property holds on that particular execution if this input-output pair satisfies the property. Further we say the system _has_ the property if it holds for all executions. 
 
-Properties could be any assumption, assertion, or behavioral pattern over system variables. For example, in the context of driving systems, we can formally specify
+Properties could be any kind of assumptions, assertions, or behavioral patterns over system variables. For example, in the context of driving systems, we can formally specify
 
 <list :items="property-classes"></list>
 
@@ -27,21 +27,18 @@ as properties and then test them in the simulation or on the road.
 
 ## What is property based testing?
 
-Property based testing is the act of 
+Property based testing is a style of testing often put in contrast to example based testing. Traditional, or example-based, testing specifies the behavior of your system by writing concrete input-output pairs aka examples. Properties are well-defined rules over the behaviors hence specifying a set of input-output pairs in an abstrast way. 
 
-Once properties are written in executable specification languages, we can test properties directly over simulated or real system behaviors. This process is called property based testing. Compared to example based testing, property based testing has several advantages that become apparent as the complexity of system under test grows.
+Once properties are written in executable specification languages, we can test properties directly over simulated or real system executions. Therefore an executable specification language is the first ingredient of property based testing. Although properties can be written using any programming language, a domain specific specification language could ease writing properties and provide support for common situations. 
 
-is in contrast to example based testing, which uses singular test cases or examples.
+The other component of property-based testing is a generator of inputs. While the generator could be generate inputs randomly, it could be constrained or guided for some goal. Therefore, property based testing is often the first step for targeted test exploration.
 
-Properties define a set of in an abstract way. 
+## Why property based testing?
 
-It is not too wrong to say that properties are rule to create examples at runtime.
+There is a single reason that you use property based is the complexity of the system under test. If you do not have a complex system, then it is better to write a few test cases to common and corner cases. Since the system is not complex, the modes of failure are known and you protect yourself against potential regressions. This is the idea of unit testing, perfected in the 2000s till today.
 
-Property based testing has several advantages over example based testing. 
+The challenge is that a single execution of a complex is not as informative as the non-complex case. The nature of complex system, dense interaction between components and environment, second-order-effects, mode changes, etc. make them incredibly difficult to predict. Therefore, we require huge numbers of diverse tests to assess the quality of the system. Property based testing helps here as providing a means to write general rules to be tested on-the-fly. No one is able to write 10.000 test cases to check a single functionality but you can write a single property and generate 10.000 random executions of the system.
 
-A property, on the other hand, corresponds to many test cases in an abstract manner and 
-
-Yet these advantages never mean that we must abandon example based testing as both styles of testing address different abstraction levels hence must co-exist in an end-to-end testing workflow.
 
 ## Property based testing elsewhere
 
@@ -49,6 +46,8 @@ Using properties or rule-based approaches is definitely not a new idea in testin
 
 A comprensive list of property based testing frameworks for software verification can be found [here](https://github.com/jmid/pbt-frameworks). Notably tools [QuickCheck](https://github.com/nick8325/quickcheck) for Haskell, [Hypothesis](https://github.com/HypothesisWorks/hypothesis) for Python, and [RapidCheck](https://github.com/emil-e/rapidcheck/) for C++ programs come with a number of different features. 
 
-VevaLabs framework has been differentiated from these tools by its first-class support for real-time systems and properties designed and developed after years of research in the field.
+Besides property-based testing for digital electronics has been in use for decades. Early in 2000s the industry developed PSL (Property Specification Language) and SVA (SystemVerilog Assertions) as an important component of electronic design tools.
+
+VevaLabs framework has been differentiated from these tools by its first-class support for real-time systems and properties designed and developed with a modern twist after years of research in the field. 
 
 
