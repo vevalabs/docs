@@ -48,7 +48,7 @@ Normally
 
 ## Runtime Components
 
-Rytest runtime components are modules to enhance the core real-time monitoring functionality. Please refer to  the [reference](/reference/component) for currently available components. Rytest component can be configured via `vevalabs.config.json`.
+Rytest runtime components are modules to enhance the core real-time monitoring functionality. Please refer to  the [reference](/reference/components) for currently available components. Rytest component can be configured via `vevalabs.config.json`.
 
 ## Runtime Reports
 Rytest reports contain basic statistics (activation/pass/fail) about the execution of properties as well as additional information (i.e. logging) produced by Rytest components.

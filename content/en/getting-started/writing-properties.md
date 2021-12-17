@@ -5,7 +5,7 @@ position: 102
 category: 'Getting started'
 ---
 
-Properties are basic elements of any verification and validation (V&V) workflow. In a nutsheel, a property corresponds to a single functional item --let it be a requirement, measurement, invariant, or KPI-- in your V&V plan. For the best results, you must follow system engineering best-practices and encourage your whole team to contribute the safety of your system. No one else, other than your team, knows your system better so let them encode their domain expertise as properties. Then we use [property based testing](/advanced/property-based-testing), a powerful concept to test and verify complex designs.
+Properties are basic elements of any verification and validation (V&V) workflow. In a nutsheel, a property corresponds to a single functional item --let it be a requirement, measurement, invariant, or KPI-- in your V&V plan. For the best results, you must follow system engineering best-practices and encourage your whole team to contribute the safety of your system. No one else, other than your team, knows your system better so let them encode their domain expertise as properties. Then we use [property based testing](/concepts/property-based-testing), a powerful concept to test and verify complex designs.
 
 ## Introducing Rytest
 
